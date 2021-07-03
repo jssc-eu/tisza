@@ -30,7 +30,7 @@ export default async (
 
   const url = `https://api.tito.io/v3/${account}/${event}/registrations/${registration}?view=extended`;
 
-  const data = await titoApi(url, token);
+  const { registration: order } = await titoApi(url, token);
 
-  return attachMetaData(registration, data.registration);
+  return attachMetaData(registrationData, order);
 };

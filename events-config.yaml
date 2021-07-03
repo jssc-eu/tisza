@@ -135,7 +135,7 @@ events:
       - ticket-name-contains: "*"
         net-price: 40
     invoice:
-      id-prefix: "WIPAO"
+      id-prefix: "JSSCT"
       logo-image: "JSCBP-szamlazzhu.png"
       comment: |
         The invoice includes mediated services.
